@@ -11,7 +11,6 @@ public class TONToGConverter implements Convertible {
      * The method to get value
      * @param fromValue
      */
-	@Override
 	public void setFromValue(double fromValue) {
 		con.setFromValue(fromValue);
 
@@ -21,7 +20,6 @@ public class TONToGConverter implements Convertible {
      * The method to return the converted value
      * @return g
      */
-	@Override
 	public double getConvertedValue() {
 		ton = con.getConvertedValue();
         g = ton * 1000 * 1000;
@@ -29,9 +27,8 @@ public class TONToGConverter implements Convertible {
 	}
 
 	/**
-     * The method is worthliss
+     * The method is worthless
      */
-	@Override
 	public void convert() {
 		con.Convert();
 

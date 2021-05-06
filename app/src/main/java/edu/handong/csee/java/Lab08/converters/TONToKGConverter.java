@@ -11,7 +11,6 @@ public class TONToKGConverter implements Convertible {
      * The method to get value
      * @param fromValue
      */
-	@Override
 	public void setFromValue(double fromValue) {
 		con.setFromValue(fromValue);
 
@@ -21,7 +20,6 @@ public class TONToKGConverter implements Convertible {
      * The method to return the converted value
      * @return kg
      */
-	@Override
 	public double getConvertedValue() {
 		ton = con.getConvertedValue();
         kg = ton * 1000;
@@ -31,7 +29,6 @@ public class TONToKGConverter implements Convertible {
 	/**
      * The method is worthless
      */
-	@Override
 	public void convert() {
 		con.Convert();
 

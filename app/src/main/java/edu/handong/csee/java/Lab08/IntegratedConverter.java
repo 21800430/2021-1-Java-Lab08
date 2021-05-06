@@ -3,7 +3,7 @@ package edu.handong.csee.java.Lab08;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import edu.handong.csee.java.hw2.converters.*;
+import edu.handong.csee.java.Lab08.converters.*;
 
 /** 
  * class
